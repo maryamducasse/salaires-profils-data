@@ -1,0 +1,6 @@
+Place ici le fichier des réponses, sous le nom results.csv
+
+Téléchargement depuis le Terminal (Mac)
+curl -L -o data/results.csv "https://github.com/StackExchange/Survey/raw/refs/heads/main/packages/archive/2025/results.csv"
+
+Source : Stack Overflow Developer Survey 2025, licence ODbL.

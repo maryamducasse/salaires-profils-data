@@ -1,0 +1,128 @@
+Réponses dans le fichier : 49191
+Personnes salariées : 33750
+Avec un salaire renseigné : 19500
+Avec un salaire crédible : 18318
+Profils data dans la base : 1104
+
+--- Profils data par métier ---
+                  metier  nb
+           Data engineer 405
+          Data scientist 281
+          AI/ML engineer 279
+Data or business analyst 139
+
+--- Technologies les plus utilisées par les profils data ---
+           type                       nom  nb  part_pct  rang
+Base de données                PostgreSQL 552      50.0     1
+Base de données      Microsoft SQL Server 327      29.6     2
+Base de données                    SQLite 314      28.4     3
+Base de données                     MySQL 275      24.9     4
+Base de données                  BigQuery 191      17.3     5
+        Langage                    Python 960      87.0     1
+        Langage                       SQL 770      69.7     2
+        Langage   Bash/Shell (all shells) 554      50.2     3
+        Langage                  HTML/CSS 428      38.8     4
+        Langage                JavaScript 420      38.0     5
+     Plateforme                    Docker 619      56.1     1
+     Plateforme Amazon Web Services (AWS) 435      39.4     2
+     Plateforme           Microsoft Azure 310      28.1     3
+     Plateforme              Google Cloud 289      26.2     4
+     Plateforme                Kubernetes 271      24.5     5
+
+--- Salaire relatif médian (1,0 = médiane du pays) ---
+profil_data
+Autres développeurs    1.0
+Profils data           1.0
+Name: salaire_rel, dtype: float64
+
+--- Expérience professionnelle médiane (années) ---
+profil_data
+Autres développeurs    12.0
+Profils data            9.0
+Name: exp_annees, dtype: float64
+
+--- Salaire relatif médian par tranche d'expérience ---
+profil_data     0     1
+tranche_exp            
+0-2 ans      0.54  0.63
+3-5 ans      0.71  0.81
+6-10 ans     1.00  1.10
+11-15 ans    1.14  1.17
+16 ans et +  1.17  1.18
+
+--- Salaire médian en dollars par pays ---
+profil_data         0         1
+pays                           
+États-Unis   150000.0  150000.0
+Allemagne     83531.0   92812.0
+Royaume-Uni   95299.0   85769.0
+Inde          23278.0   17436.0
+France        61488.0   66708.0
+Canada        91198.0   96305.0
+Brésil        32767.0   36043.0
+Espagne       60328.0   69609.0
+
+--- Écart de salaire relatif (utilisateurs contre non-utilisateurs) ---
+           type                       nom  nb_utilisateurs  ecart_pct  exp_mediane
+        Langage                     Scala               73       32.1         10.0
+Base de données                  Dynamodb               73       30.4          9.0
+     Plateforme                Kubernetes              266       27.0         10.0
+     Plateforme                 Terraform              182       24.4         10.0
+     Plateforme Amazon Web Services (AWS)              423       21.1          9.0
+     Plateforme                    Docker              605       19.7          9.0
+Base de données                Clickhouse               41       18.9          8.0
+Base de données            Databricks SQL              166       16.7          9.5
+Base de données                  BigQuery              184       15.6         10.0
+Base de données           Amazon Redshift               74       15.5         10.0
+Base de données             Elasticsearch              114       15.5         10.0
+        Langage   Bash/Shell (all shells)              545       14.0          9.0
+Base de données                     Redis              151       13.8         10.0
+     Plateforme              Google Cloud              279       11.9         10.0
+        Langage                        Go              116       10.8          8.0
+Base de données                    DuckDB              137       10.0         10.0
+Base de données                PostgreSQL              534        8.8          9.0
+        Langage                    Python              931        8.2          8.0
+        Langage                    Kotlin               37        8.0          9.5
+Base de données                 Snowflake              144        6.9          9.5
+Base de données                 Cosmos DB               49        5.2          7.0
+Base de données                  Supabase               38        4.6          7.5
+Base de données                   MariaDB              112        4.1         10.0
+Base de données                   MongoDB              163        3.8          8.0
+        Langage                TypeScript              190        2.9          8.0
+        Langage                      Java              167        2.5         10.0
+Base de données                     Neo4J               62        0.9         10.0
+Base de données                    SQLite              303        0.3         10.0
+        Langage                       SQL              742       -2.2          9.0
+        Langage                      Rust              112       -2.8          8.0
+Base de données                     MySQL              260       -3.9         10.0
+        Langage                JavaScript              409       -4.5          9.0
+        Langage                       PHP               59       -4.5         16.0
+     Plateforme           Microsoft Azure              300       -4.7         10.0
+Base de données                    Oracle              123       -5.3         10.0
+        Langage                       Lua               44       -5.9          6.0
+        Langage                    MATLAB               36       -6.3         11.0
+        Langage                        C#              135       -6.9         10.0
+        Langage                         C               92       -7.0          8.0
+        Langage                       C++              143       -7.4          8.0
+        Langage                         R              211       -9.1         10.0
+        Langage                  HTML/CSS              414       -9.8         10.0
+        Langage                PowerShell              220      -13.7         10.0
+Base de données      Microsoft SQL Server              315      -13.8         10.0
+Base de données          Microsoft Access               56      -24.1         12.5
+        Langage                       VBA               79      -26.0         10.0
+
+--- Technologies des profils data débutants (345 personnes) ---
+                           debutants_pct  confirmes_pct
+nom                                                    
+Python                              89.0           86.0
+SQL                                 68.7           70.2
+Docker                              55.1           56.7
+PostgreSQL                          48.1           51.3
+Bash/Shell (all shells)             45.8           52.2
+JavaScript                          37.7           37.9
+Amazon Web Services (AWS)           37.4           40.6
+HTML/CSS                            36.8           39.4
+Microsoft Azure                     28.1           28.2
+SQLite                              27.5           29.0
+
+Graphiques dans images/ et tableaux dans resultats/

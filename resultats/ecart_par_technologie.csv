@@ -1,0 +1,47 @@
+type,nom,nb_utilisateurs,ecart_pct,exp_mediane
+Langage,Scala,73,32.1,10.0
+Base de données,Dynamodb,73,30.4,9.0
+Plateforme,Kubernetes,266,27.0,10.0
+Plateforme,Terraform,182,24.4,10.0
+Plateforme,Amazon Web Services (AWS),423,21.1,9.0
+Plateforme,Docker,605,19.7,9.0
+Base de données,Clickhouse,41,18.9,8.0
+Base de données,Databricks SQL,166,16.7,9.5
+Base de données,BigQuery,184,15.6,10.0
+Base de données,Amazon Redshift,74,15.5,10.0
+Base de données,Elasticsearch,114,15.5,10.0
+Langage,Bash/Shell (all shells),545,14.0,9.0
+Base de données,Redis,151,13.8,10.0
+Plateforme,Google Cloud,279,11.9,10.0
+Langage,Go,116,10.8,8.0
+Base de données,DuckDB,137,10.0,10.0
+Base de données,PostgreSQL,534,8.8,9.0
+Langage,Python,931,8.2,8.0
+Langage,Kotlin,37,8.0,9.5
+Base de données,Snowflake,144,6.9,9.5
+Base de données,Cosmos DB,49,5.2,7.0
+Base de données,Supabase,38,4.6,7.5
+Base de données,MariaDB,112,4.1,10.0
+Base de données,MongoDB,163,3.8,8.0
+Langage,TypeScript,190,2.9,8.0
+Langage,Java,167,2.5,10.0
+Base de données,Neo4J,62,0.9,10.0
+Base de données,SQLite,303,0.3,10.0
+Langage,SQL,742,-2.2,9.0
+Langage,Rust,112,-2.8,8.0
+Base de données,MySQL,260,-3.9,10.0
+Langage,JavaScript,409,-4.5,9.0
+Langage,PHP,59,-4.5,16.0
+Plateforme,Microsoft Azure,300,-4.7,10.0
+Base de données,Oracle,123,-5.3,10.0
+Langage,Lua,44,-5.9,6.0
+Langage,MATLAB,36,-6.3,11.0
+Langage,C#,135,-6.9,10.0
+Langage,C,92,-7.0,8.0
+Langage,C++,143,-7.4,8.0
+Langage,R,211,-9.1,10.0
+Langage,HTML/CSS,414,-9.8,10.0
+Langage,PowerShell,220,-13.7,10.0
+Base de données,Microsoft SQL Server,315,-13.8,10.0
+Base de données,Microsoft Access,56,-24.1,12.5
+Langage,VBA,79,-26.0,10.0
