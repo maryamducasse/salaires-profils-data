@@ -1,12 +1,12 @@
 # Qu'est-ce qui fait varier le salaire des profils data ?
 
-Analyse du Stack Overflow Developer Survey 2025, pour comprendre ce qui pèse sur le salaire des data scientists, data engineers, data analysts et ingénieurs IA, entre l'expérience, le pays et les technologies utilisées.
+Pour savoir par où commencer en data, j’ai voulu répondre avec des données plutôt qu’avec des avis. J’ai analysé l’enquête Stack Overflow 2025 avec Python et SQL pour voir ce qui va avec un salaire plus élevé. Je suis étudiante en école d’ingénieur et je vise le métier de data scientist. Ce qui m’a surprise, c’est que les débutants utilisent presque les mêmes outils que les confirmés.
 
 **Outils** Python, pandas, SQL (SQLite), matplotlib
 
 ## La question
 
-Je prépare une carrière en data. Avant de choisir quoi apprendre, je veux savoir ce qui est associé à un salaire plus élevé.
+Je me suis posé trois questions.
 
 1. Les profils data sont-ils payés différemment des autres développeurs ?
 2. Comment le salaire évolue-t-il avec l'expérience ?
@@ -33,11 +33,11 @@ Les données sont sous licence ODbL, avec obligation de citer la source. Le fich
 
 **La base.** Sur 49 191 réponses, 18 318 personnes salariées ont déclaré un salaire crédible, dont 1 104 profils data (6 %). On y trouve 405 data engineers, 281 data scientists, 279 ingénieurs IA/ML et 139 data ou business analysts.
 
-**Le salaire selon l'expérience.** Le salaire augmente fortement avec l'expérience, pour tout le monde. À expérience égale, les profils data gagnent un peu plus que les autres développeurs par rapport à la médiane de leur pays, surtout en début de carrière (0,63 contre 0,54 entre 0 et 2 ans, 0,81 contre 0,71 entre 3 et 5 ans). L'écart se réduit ensuite et disparaît presque après 16 ans (1,18 contre 1,17). Sur l'ensemble de la base, les deux groupes ont pourtant le même salaire relatif médian (1,0). Je n'explique pas complètement ce point, il est possible que les deux groupes n'aient pas la même répartition d'expérience.
+**Le salaire selon l'expérience.** Le salaire augmente fortement avec l'expérience, pour tout le monde. À expérience égale, les profils data gagnent un peu plus que les autres développeurs par rapport à la médiane de leur pays, surtout en début de carrière (0,63 contre 0,54 entre 0 et 2 ans, 0,81 contre 0,71 entre 3 et 5 ans). L'écart se réduit ensuite et disparaît presque après 16 ans (1,18 contre 1,17). Sur l'ensemble de la base, les deux groupes ont pourtant le même salaire relatif médian (1,0). Cela s’explique sans doute par l’expérience, les profils data en ont moins (9 ans en médiane contre 12) ce qui compense leur avantage à expérience égale.
 
 ![Salaire selon l'expérience](images/1_salaire_selon_experience.png)
 
-**Les pays.** En France, la médiane des profils data est d'environ 66 700 dollars par an, contre 61 500 pour les autres développeurs. Elle est plus basse au Royaume-Uni et en Inde, et identique aux États-Unis (150 000 dollars). Les groupes par pays sont petits, je n'en tire donc aucune conclusion sur un pays en particulier.
+**Les pays.** En France, la médiane des profils data est d'environ 66 700 dollars par an, contre 61 500 pour les autres développeurs. Elle est plus basse au Royaume-Uni et en Inde, et identique aux États-Unis (150 000 dollars). Les échantillons par pays étant trop petits, je préfère donc ne pas surinterpréter ces chiffres.
 
 ![Salaire par pays](images/2_salaire_par_pays.png)
 
@@ -55,7 +55,7 @@ Les premières technologies relèvent du cloud, de l'infrastructure et du traite
 
 ![Technologies des débutants](images/5_technologies_debutants.png)
 
-**Ce que j'en retiens.** Je commence par les bases que presque tous les profils data utilisent, Python, SQL et Docker. J'apprends ensuite un service cloud, puis les outils qui vont avec. Je garde en tête que ces résultats décrivent des liens et non des causes.
+**Ce que j'en retiens.** Ce projet m’a surtout appris à ne pas conclure trop vite. Les chiffres montrent des liens, pas des causes. Comme les débutants utilisent déjà les mêmes outils que les confirmés, je commence par Python, SQL et Docker, puis je teste un service cloud.
 
 ## Limites
 
@@ -81,7 +81,6 @@ Les graphiques sont enregistrés dans `images/` et les tableaux dans `resultats/
 ## Pistes pour aller plus loin
 
 - Ajouter un tableau de bord Power BI sur les mêmes données.
-- Contrôler l'effet de l'expérience avec un modèle de régression.
 - Refaire l'analyse avec l'édition 2026 quand le fichier détaillé sera disponible.
 
 *Projet personnel de Maryam Ducasse*
