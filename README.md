@@ -33,11 +33,11 @@ Les données sont sous licence ODbL, avec obligation de citer la source. Le fich
 
 **La base.** Sur 49 191 réponses, 18 318 personnes salariées ont déclaré un salaire crédible, dont 1 104 profils data (6 %). On y trouve 405 data engineers, 281 data scientists, 279 ingénieurs IA/ML et 139 data ou business analysts.
 
-**Le salaire selon l'expérience.** Le salaire augmente fortement avec l'expérience, pour tout le monde. À expérience égale, les profils data gagnent un peu plus que les autres développeurs par rapport à la médiane de leur pays, surtout en début de carrière (0,63 contre 0,54 entre 0 et 2 ans, 0,81 contre 0,71 entre 3 et 5 ans). L'écart se réduit ensuite et disparaît presque après 16 ans (1,18 contre 1,17). Sur l'ensemble de la base, les deux groupes ont pourtant le même salaire relatif médian (1,0). Cela s’explique sans doute par l’expérience, les profils data en ont moins (9 ans en médiane contre 12) ce qui compense leur avantage à expérience égale.
+**Le salaire selon l'expérience.** Le salaire augmente fortement avec l'expérience, pour tout le monde. À expérience égale, les profils data gagnent un peu plus que les autres développeurs par rapport à la médiane de leur pays, surtout en début de carrière (0,63 contre 0,54 entre 0 et 2 ans, 0,81 contre 0,71 entre 3 et 5 ans). L'écart se réduit ensuite et disparaît presque après 16 ans (1,18 contre 1,17). Sur l'ensemble de la base, les deux groupes ont pourtant le même salaire relatif médian (1,0). Cela s’explique sans doute par l’expérience, les profils data en ont moins (9 ans en médiane contre 12), ce qui compense leur avantage à expérience égale.
 
 ![Salaire selon l'expérience](images/1_salaire_selon_experience.png)
 
-**Les pays.** En France, la médiane des profils data est d'environ 66 700 dollars par an, contre 61 500 pour les autres développeurs. Elle est plus basse au Royaume-Uni et en Inde, et identique aux États-Unis (150 000 dollars). Les échantillons par pays étant trop petits, je préfère donc ne pas surinterpréter ces chiffres.
+**Les pays.** En France, la médiane des profils data est d'environ 66 700 dollars par an, contre 61 500 pour les autres développeurs. Elle est plus basse au Royaume-Uni et en Inde, et identique aux États-Unis (150 000 dollars). Les échantillons par pays sont petits, je préfère donc ne pas surinterpréter ces chiffres.
 
 ![Salaire par pays](images/2_salaire_par_pays.png)
 
@@ -45,7 +45,7 @@ Les données sont sous licence ODbL, avec obligation de citer la source. Le fich
 
 ![Technologies utilisées](images/4_technologies_utilisees.png)
 
-**Les technologies associées à un salaire plus élevé.** Chez les profils data, ceux qui utilisent Scala (+32 %), DynamoDB (+30 %), Kubernetes (+27 %), Terraform (+24 %), AWS (+21 %) ou Docker (+20 %) ont un salaire relatif médian nettement plus élevé que ceux qui ne les utilisent pas. À l'inverse, VBA (-26 %), Microsoft Access (-24 %), SQL Server (-14 %) et PowerShell (-14 %) sont associés à des salaires plus bas. Python (+8 %) et SQL (-2 %) font peu de différence, parce que presque tout le monde les utilise.
+**Les technologies associées à un salaire plus élevé.** Chez les profils data, ceux qui utilisent Scala (+32 %), DynamoDB (+30 %), Kubernetes (+27 %), Terraform (+24 %), AWS (+21 %) ou Docker (+20 %) ont un salaire relatif médian nettement plus élevé que ceux qui ne les utilisent pas. À l'inverse, VBA (-26 %), Microsoft Access (-24 %), SQL Server (-14 %) et PowerShell (-14 %) sont associés à des salaires plus bas. Python (+8 %) et SQL (-2 %) font peu de différence, sans doute parce que la grande majorité des profils data les utilise.
 
 Les premières technologies relèvent du cloud, de l'infrastructure et du traitement de données à grande échelle. Les secondes relèvent surtout de l'environnement Microsoft et Office. Il est probable que cela reflète le type de poste et d'entreprise plus que l'outil lui-même. L'expérience médiane de ceux qui utilisent ces technologies est comparable (autour de 9 à 10 ans pour la plupart), mais je ne l'ai pas comparée à celle des non-utilisateurs.
 
@@ -65,7 +65,7 @@ Les premières technologies relèvent du cloud, de l'infrastructure et du traite
 - Je teste beaucoup de technologies à la fois, certains écarts peuvent donc être dus au hasard.
 - Chaque répondant déclare un seul métier principal, certaines personnes qui font de la data peuvent donc être rangées ailleurs, par exemple en développeur back-end.
 - Les profils analystes sont peu nombreux (139), les conclusions les concernent moins.
-- Les groupes par pays sont petits, au moins 15 personnes par groupe.
+- Je n’affiche que les pays avec au moins 15 profils data, les groupes restent petits.
 - Le groupe des débutants est plus petit que celui des confirmés, ses pourcentages sont donc moins précis.
 - Seules les personnes salariées sont retenues, pas les indépendants ni les étudiants.
 
